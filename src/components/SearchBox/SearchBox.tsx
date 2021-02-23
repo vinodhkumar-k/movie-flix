@@ -18,6 +18,9 @@ const SearchTextField = withStyles({
     '& .MuiInput-underline:before': {
       borderBottomColor: 'white',
     },
+    '& .MuiInput-underline:hover:not($disabled):before': {
+      borderBottomColor: 'white',
+    },
     '& .MuiInputBase-input': {
       color: 'white'
     }
