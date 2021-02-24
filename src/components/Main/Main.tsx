@@ -5,7 +5,7 @@ const Main = () => {
   const filters = ['Now playing', 'Most popular', 'Top rated', 'Upcoming'];
   return (
     <>
-      {filters.map((filter:string) => <CollectionHolder filter={filter}/>)}
+      {filters.map((filter:string) => <CollectionHolder key={filter} filter={filter}/>)}
     </>
   );
 };
